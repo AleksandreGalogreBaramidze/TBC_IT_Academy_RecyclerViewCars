@@ -34,28 +34,28 @@ class MainActivity : AppCompatActivity() {
     private fun addData(){
         val speed = "Speed:"
         val type = "Type:"
-        viewItems.add(Items(R.drawable.ic_sedan, "$speed Sedan", "$type Fast",
+        viewItems.add(Items(R.drawable.ic_sedan, "$type Sedan", "$speed Fast",
             R.drawable.ic_supercharger_engine
         ))
-        viewItems.add(Items(R.drawable.ic_automobile_orange, "$speed Coupe", "$type Fast",
+        viewItems.add(Items(R.drawable.ic_automobile_orange, "$type Coupe", "$speed Fast",
             R.drawable.ic_v8_engine
         ))
-        viewItems.add(Items(R.drawable.ic_hatchback, "$speed HatchBack", "$type Slow",
+        viewItems.add(Items(R.drawable.ic_hatchback, "$type HatchBack", "$speed Slow",
             R.drawable.ic_4v_engine
         ))
-        viewItems.add(Items(R.drawable.ic_automobile_green, "$speed SUV", "$type Slow",
+        viewItems.add(Items(R.drawable.ic_automobile_green, "$type SUV", "$speed Slow",
             R.drawable.ic_4v_engine
         ))
-        viewItems.add(Items(R.drawable.ic_supercar, "$speed SuperCar", "$type Super Fast",
+        viewItems.add(Items(R.drawable.ic_supercar, "$type SuperCar", "$speed Super Fast",
             R.drawable.ic_v8_engine
         ))
-        viewItems.add(Items(R.drawable.ic_suv_blue, "$speed SUV", "$type Slow",
+        viewItems.add(Items(R.drawable.ic_suv_blue, "$type SUV", "$speed Slow",
             R.drawable.ic_4v_engine
         ))
-        viewItems.add(Items(R.drawable.ic_cabrio, "$speed Cabrio", "$type Fast",
+        viewItems.add(Items(R.drawable.ic_cabrio, "$type Cabrio", "$speed Fast",
             R.drawable.ic_electro_engine
         ))
-        viewItems.add(Items(R.drawable.ic_motor_sports, "$speed MotorCircle", "$type Medium",
+        viewItems.add(Items(R.drawable.ic_motor_sports, "$type MotorCircle", "$speed Medium",
             R.drawable.ic_supercharger_engine
         ))
         adapter.notifyDataSetChanged()
